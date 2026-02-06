@@ -1,30 +1,31 @@
 {
     "team": [
         {
-            "name": "Team Member Name 1",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "N.A.N.D.N.Arachchi",
+            "email": "e23017@eng.pdn.ac.lk",
+            "eNumber": "E/23/017"
         },
         {
-            "name": "Team Member Name 2",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "J.Dinojan",
+            "email": "e23077@eng.pdn.ac.lk",
+            "eNumber": "E/23/077"
         },
         {
-            "name": "Team Member Name 3",
-            "email": "email@eng.pdn.ac.lk",
-            "eNumber": "E/yy/xxx"
+            "name": "T.T.R.Yapa",
+            "email": "e23454@eng.pdn.ac.lk",
+            "eNumber": "E/23/454"
+        },
+        {
+            "name": "H.P.L.N.Yashassri",
+            "email": "e23455@eng.pdn.ac.lk",
+            "eNumber": "E/23/455"
         }
     ],
     "supervisors": [
         {
             "name": "Dr. Supervisor 1",
             "email": "email@eng.pdn.ac.lk"
-        },
-        {
-            "name": "Supervisor 2",
-            "email": "email@eng.pdn.ac.lk"
-        }
+        }   
     ],
     "tags": ["Web", "Software Systems", "CO2060"],
     "image":"cover_page.jpg",
