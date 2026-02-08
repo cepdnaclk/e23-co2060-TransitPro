@@ -27,7 +27,7 @@ A HTML template integrated with the given GitHub repository templates, based on 
 -  E/23/017, N.A.N.D.N.Arachchi, [email](mailto:e23017@eng.pdn.ac.lk)
 -  E/23/077, J.Dinojan, [email](mailto:e23077@eng.pdn.ac.lk)
 -  E/23/454, T.T.R.Yapa, [email](mailto:e23454@eng.pdn.ac.lk)
--  E/23/455, H.P.L.N.Yash, [email](mailto:e23455@eng.pdn.ac.lk)
+-  E/23/455, H.P.L.N.Yashassri, [email](mailto:e23455@eng.pdn.ac.lk)
 
 <!-- Image (photo/drawing of the final hardware) should be here -->
 
