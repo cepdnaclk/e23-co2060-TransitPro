@@ -19,10 +19,7 @@ The main objective of TransitPro is to digitize transportation management proces
 
 **Frontend**
 
-* React
-* HTML
-* CSS
-* JavaScript
+* React.js
 
 **Backend**
 
