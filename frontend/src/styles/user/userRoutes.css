@@ -1,0 +1,77 @@
+.user-routes-page {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-routes-page h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .route-search {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 14px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .route-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  
+  .route-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+  }
+  
+  .route-card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .route-path {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .arrow {
+    color: #2563eb;
+  }
+  
+  .route-price {
+    margin: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .route-btn {
+    width: 100%;
+    padding: 10px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .route-btn:hover {
+    background: #1e40af;
+  }
+  
+  .empty {
+    text-align: center;
+    color: #666;
+  }
+  

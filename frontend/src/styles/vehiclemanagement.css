@@ -1,0 +1,25 @@
+/* src/styles/vehiclemanagement.css - scoped */
+.vehicle-page-wide{ max-width:1200px; margin:0 auto; padding:8px 0 60px; }
+.vehicle-page-wide h1{ font-size:30px; margin-bottom:14px; color:#081427; }
+
+.vm-top{ margin-bottom:14px; }
+.vm-search{ width:320px; padding:10px 12px; border-radius:8px; border:1px solid #e2e8f0; }
+
+.vm-form-card{ background:#fff; padding:16px; border-radius:12px; box-shadow:0 6px 18px rgba(2,6,23,0.06); margin-bottom:18px; }
+.vm-form-card h3{ margin:0 0 12px 0; font-weight:700; }
+
+.vm-form-grid{ display:grid; grid-template-columns:22% 48% 12% 18%; gap:12px; align-items:center; }
+.vm-form-grid input{ padding:10px 12px; border-radius:8px; border:1px solid #e6eef7; }
+
+.vm-form-actions{ display:flex; gap:10px; justify-content:flex-end; }
+.btn{ padding:8px 12px; border-radius:8px; border:none; cursor:pointer; font-weight:600; }
+.btn.add{ background:#0077d6; color:#fff; }
+.btn.save{ background:#16a34a; color:#fff; }
+.btn.cancel{ background:#efefef; }
+
+.vm-table-card{ background:#fff; padding:14px; border-radius:12px; box-shadow:0 6px 18px rgba(2,6,23,0.04); }
+.vm-table{ width:100%; border-collapse:collapse; table-layout:fixed; }
+.vm-table th{ text-align:left; padding:12px; background:#fafafa; font-weight:700; border-bottom:1px solid #eee; }
+.vm-table td{ padding:12px; border-bottom:1px solid #f3f6f9; }
+.btn.edit{ background:#f59e0b; color:#fff; margin-right:8px; }
+.btn.del{ background:#ef4444; color:#fff; }

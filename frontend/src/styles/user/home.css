@@ -1,0 +1,32 @@
+.home-container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .search-box input {
+    flex: 1;
+    padding: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box button {
+    padding: 14px 22px;
+    border-radius: 8px;
+    border: none;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+  }
+  

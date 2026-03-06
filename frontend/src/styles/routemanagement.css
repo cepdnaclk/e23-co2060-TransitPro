@@ -1,0 +1,109 @@
+/* Page Container */
+.route-page-wide {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Search Bar */
+  .rt-top {
+    margin-bottom: 20px;
+  }
+  
+  .rt-search {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Form Card */
+  .rt-form-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+  }
+  
+  .rt-form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+  
+  .rt-form-grid input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .rt-actions {
+    grid-column: span 3;
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Buttons */
+  .btn {
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .btn.add {
+    background: #0066ff;
+    color: white;
+  }
+  
+  .btn.save {
+    background: #00b14f;
+    color: white;
+  }
+  
+  .btn.cancel {
+    background: #777;
+    color: white;
+  }
+  
+  .btn.edit {
+    background: #ffaa00;
+    color: white;
+  }
+  
+  .btn.del {
+    background: #ff3b3b;
+    color: white;
+  }
+  
+  /* Table */
+  .rt-table-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .rt-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .rt-table th, .rt-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rt-table th {
+    text-align: left;
+    background: #f3f4f6;
+  }
+  
+  .rt-btn-group {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+  
