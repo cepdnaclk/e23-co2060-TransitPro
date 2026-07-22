@@ -4,44 +4,44 @@ import reactHooks from "eslint-plugin-react-hooks";
 import reactRefresh from "eslint-plugin-react-refresh";
 import { defineConfig } from "eslint/config";
 
+// Extract rules for cleaner array below
+const customRules = {
+  "no-unused-vars": [
+    "error",
+    {
+      varsIgnorePattern: "^[A-Z_]", 
+      argsIgnorePattern: "^_",      
+    },
+  ],
+  "no-console": "warn", 
+};
+
+// Extract environment settings
+const customLanguageOptions = {
+  ecmaVersion: "latest", 
+  sourceType: "module",
+  globals: {
+    ...globals.browser,
+  },
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+};
+
 export default defineConfig([
   {
-    ignores: ["dist"], // cleaner than globalIgnores
+    ignores: ["dist"], 
   },
   {
     files: ["**/*.{js,jsx}"],
-
     extends: [
       js.configs.recommended,
       reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
     ],
-
-    languageOptions: {
-      ecmaVersion: "latest", // more modern (same effect)
-      sourceType: "module",
-      globals: {
-        ...globals.browser,
-      },
-      parserOptions: {
-        ecmaFeatures: {
-          jsx: true,
-        },
-      },
-    },
-
-    rules: {
-      // same logic, just clearer naming
-      "no-unused-vars": [
-        "error",
-        {
-          varsIgnorePattern: "^[A-Z_]", // keep ignoring constants/components
-          argsIgnorePattern: "^_",      // NEW: ignore unused function args (_)
-        },
-      ],
-
-      // optional safe improvements (no behavior change)
-      "no-console": "warn", // doesn't break anything
-    },
+    languageOptions: customLanguageOptions,
+    rules: customRules,
   },
 ]);
