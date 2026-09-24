@@ -1,0 +1,68 @@
+.booking-page {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .booking-page h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .seat-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .seat {
+    background: #e5e7eb;
+    padding: 12px 0;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .seat.selected {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .seat:hover {
+    background: #93c5fd;
+  }
+  
+  .booking-form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .booking-form input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .booking-form button {
+    padding: 12px;
+    background: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .booking-form button:hover {
+    background: #15803d;
+  }
+  

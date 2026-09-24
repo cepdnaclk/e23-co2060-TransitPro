@@ -1,0 +1,113 @@
+.manage-wrapper h1 {
+    font-size: 34px;
+    color: #111827;
+    margin-bottom: 6px;
+  }
+  
+  .manage-wrapper p {
+    color: #6b7280;
+    margin-bottom: 24px;
+  }
+  
+  .manage-form-card {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .manage-form-card input {
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #dbe2ea;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .manage-form-card button {
+    background: linear-gradient(90deg,#2563eb,#3b82f6);
+    border: none;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    font-weight: 600;
+  }
+  
+  .data-card {
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+  }
+  
+  .table-header-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background: #f4f7fb;
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  tbody tr {
+    border-bottom: 1px solid #edf1f5;
+  }
+  
+  tbody tr:hover {
+    background: #fafcff;
+  }
+  
+  .status-badge {
+    background: #dcfce7;
+    color: #15803d;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .action-cell {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .edit-btn {
+    background: #f59e0b;
+  }
+  
+  .delete-btn {
+    background: #ef4444;
+  }

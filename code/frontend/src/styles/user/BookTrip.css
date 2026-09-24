@@ -1,0 +1,409 @@
+.booktrip-container{
+    max-width:1450px;
+    margin:auto;
+    padding:150px 40px 100px;
+  }
+  
+  .booktrip-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:start;
+  }
+  
+  /* LEFT SUMMARY */
+  .route-summary-card{
+    background:linear-gradient(180deg,#eff6ff,#ffffff);
+    padding:45px;
+    border-radius:28px;
+    box-shadow:0 20px 40px rgba(15,23,42,0.05);
+  }
+  
+  .trip-badge{
+    display:inline-block;
+    background:#dbeafe;
+    color:#2563eb;
+    padding:10px 18px;
+    border-radius:30px;
+    font-weight:600;
+    font-size:14px;
+  }
+  
+  .route-summary-card h1{
+    margin-top:20px;
+    font-size:42px;
+    color:#0f172a;
+  }
+  
+  .route-line{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-top:30px;
+    color:#2563eb;
+  }
+  
+  .route-line h2{
+    font-size:28px;
+  }
+  
+  .summary-item{
+    margin-top:18px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#475569;
+    font-size:17px;
+  }
+  
+  .price-box{
+    margin-top:30px;
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    color:white;
+    padding:14px 22px;
+    border-radius:16px;
+    font-weight:600;
+  }
+  
+  .booking-note{
+    margin-top:35px;
+    background:white;
+    padding:18px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    color:#0f172a;
+    box-shadow:0 10px 25px rgba(15,23,42,0.04);
+  }
+  
+  /* FORM */
+  .booking-form-card{
+    background:white;
+    padding:45px;
+    border-radius:28px;
+    box-shadow:0 20px 40px rgba(15,23,42,0.06);
+  }
+  
+  .booking-form-card h2{
+    font-size:34px;
+    margin-bottom:30px;
+    color:#0f172a;
+  }
+  
+  .form-input{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    border:1px solid #dbe3ef;
+    padding:15px 18px;
+    border-radius:14px;
+    margin-bottom:18px;
+  }
+  
+  .form-input input{
+    width:100%;
+    border:none;
+    outline:none;
+    font-size:15px;
+  }
+  
+  .confirm-btn{
+    width:100%;
+    margin-top:15px;
+    padding:16px;
+    border:none;
+    border-radius:14px;
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  
+  /* SEAT SELECTION */
+  .seat-section{
+    border:1px solid #dbe3ef;
+    border-radius:14px;
+    padding:20px;
+    margin-bottom:18px;
+  }
+
+  .seat-section-header{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:600;
+    color:#0f172a;
+    margin-bottom:14px;
+  }
+
+  .seat-count-pill{
+    margin-left:auto;
+    background:#dbeafe;
+    color:#2563eb;
+    font-size:13px;
+    font-weight:600;
+    padding:4px 12px;
+    border-radius:20px;
+  }
+
+  .seat-map-placeholder{
+    color:#94a3b8;
+    font-size:14px;
+    text-align:center;
+    padding:24px 10px;
+    background:#f8fafc;
+    border-radius:12px;
+  }
+
+  .seat-driver-row{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    color:#94a3b8;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-bottom:16px;
+    background:#f1f5f9;
+    border-radius:20px;
+    padding:6px 0;
+  }
+
+  /* Bus seat map: rows of 2 + aisle + 2 */
+  .seat-rows{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+  }
+
+  .seat-row{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+  }
+
+  .seat-row-bench{
+    padding-top:12px;
+    margin-top:2px;
+    border-top:2px dashed #dbe3ef;
+    width:100%;
+  }
+
+  .seat-aisle{
+    width:26px;
+    flex-shrink:0;
+  }
+
+  .seat-row button.seat{
+    width:52px !important;
+    max-width:52px;
+    height:52px;
+    flex:0 0 auto;
+    flex-shrink:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#22c55e;
+    color:white;
+    border:none;
+    text-align:center;
+    border-radius:12px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:14px;
+    box-shadow:0 4px 10px rgba(34,197,94,0.25);
+    transition:all .15s ease;
+  }
+
+  .seat-row button.seat:hover:not(:disabled){
+    background:#16a34a;
+    transform:translateY(-2px);
+  }
+
+  .seat-row button.seat.selected{
+    background:linear-gradient(135deg,#2563eb,#3b82f6);
+    box-shadow:0 4px 10px rgba(37,99,235,0.3);
+  }
+
+  .seat-row button.seat.booked{
+    background:#f1f5f9;
+    color:#cbd5e1;
+    box-shadow:none;
+    cursor:not-allowed;
+  }
+
+  .seat-rear-label{
+    text-align:center;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    color:#94a3b8;
+    margin-bottom:16px;
+  }
+
+  .seat-legend{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    font-size:13px;
+    color:#475569;
+  }
+
+  .seat-legend span{
+    display:flex;
+    align-items:center;
+    gap:8px;
+  }
+
+  .legend-box{
+    display:inline-block;
+    width:14px;
+    height:14px;
+    border-radius:50%;
+  }
+
+  .legend-box.available{ background:#22c55e; }
+  .legend-box.selected{ background:linear-gradient(135deg,#2563eb,#3b82f6); }
+  .legend-box.booked{ background:#f1f5f9; border:1px solid #e2e8f0; }
+
+  @media(max-width:900px){
+    .booktrip-grid{
+      grid-template-columns:1fr;
+    }
+
+    .seat-row button.seat{
+      width:44px !important;
+      max-width:44px;
+      height:44px;
+      font-size:13px;
+    }
+
+    .seat-aisle{
+      width:20px;
+    }
+  }
+.gender-input-group{margin:14px 0;padding:12px 14px;border:1px solid #dbe3ef;border-radius:12px;background:#fff}.gender-label{display:flex;align-items:center;gap:8px;font-weight:700;color:#334155;margin-bottom:10px}.gender-options{display:flex;gap:10px}.gender-option{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 12px;border:1px solid #cbd5e1;border-radius:10px;cursor:pointer;font-weight:700;color:#475569;transition:.2s}.gender-option input{accent-color:#2563eb}.gender-option.active{border-color:#2563eb;background:#eff6ff;color:#1d4ed8}.gender-option.active.female{border-color:#db2777;background:#fdf2f8;color:#be185d}
+
+
+/* Gender-aware booked seats */
+.seat-row button.seat {
+  position: relative;
+  flex-direction: column;
+  gap: 2px;
+  line-height: 1;
+}
+
+.seat-row button.seat .seat-number {
+  line-height: 1;
+}
+
+.seat-row button.seat .seat-gender-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: 8px;
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: .2px;
+  line-height: 1;
+}
+
+.seat-row button.seat.male-booked {
+  background: #dbeafe;
+  color: #1d4ed8;
+  border: 2px solid #3b82f6;
+  box-shadow: 0 3px 8px rgba(59,130,246,.18);
+  cursor: not-allowed;
+}
+
+.seat-row button.seat.female-booked {
+  background: #fce7f3;
+  color: #be185d;
+  border: 2px solid #ec4899;
+  box-shadow: 0 3px 8px rgba(236,72,153,.18);
+  cursor: not-allowed;
+}
+
+.seat-row button.seat.male-booked .seat-gender-badge {
+  background: #2563eb;
+  color: #fff;
+}
+
+.seat-row button.seat.female-booked .seat-gender-badge {
+  background: #db2777;
+  color: #fff;
+}
+
+.seat-gender-note {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 2px 0 12px;
+  padding: 9px 11px;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.legend-box.male-booked {
+  background: #dbeafe;
+  border: 2px solid #3b82f6;
+}
+
+.legend-box.female-booked {
+  background: #fce7f3;
+  border: 2px solid #ec4899;
+}
+
+@media (max-width: 900px) {
+  .seat-row button.seat .seat-gender-badge { font-size: 8px; }
+}
+
+
+/* Required booking fields */
+.required-hint {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #dc2626;
+  vertical-align: middle;
+}
+.gender-label b { color: #dc2626; }
+.booking-required-message {
+  margin: 12px 0;
+  padding: 11px 13px;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.booking-required-message.incomplete {
+  color: #92400e;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+}
+.booking-required-message.complete {
+  color: #166534;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+}
+.confirm-btn:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
