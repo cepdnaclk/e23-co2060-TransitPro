@@ -1,5 +1,5 @@
 {
-  "title": "TransitPRO – Smart Mobility Booking & Transport Administration System",
+  "title": "TransitPRO - Smart Mobility Booking & Transport Administration System",
   "team": [
     {
       "name": "N.A.N.D.N. Arachchi",
@@ -17,11 +17,6 @@
       "eNumber": "E/23/455"
     }
   ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor Name",
-      "email": "supervisor@eng.pdn.ac.lk"
-    }
-  ],
+  "supervisors": [],
   "tags": ["Web", "Software Systems", "CO2060", "MERN", "Transport"]
 }
