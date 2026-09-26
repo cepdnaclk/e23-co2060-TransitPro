@@ -440,3 +440,26 @@ We would like to thank the lecturers, supervisors, evaluators, users, and everyo
 ---
 
 **TransitPRO – Smart Mobility Booking & Transport Administration System** 🚍
+
+{
+  "title": "TransitPRO - Smart Mobility Booking & Transport Administration System",
+  "team": [
+    {
+      "name": "N.A.N.D.N. Arachchi",
+      "email": "e23017@eng.pdn.ac.lk",
+      "eNumber": "E/23/017"
+    },
+    {
+      "name": "T.T.R. Yapa",
+      "email": "e23454@eng.pdn.ac.lk",
+      "eNumber": "E/23/454"
+    },
+    {
+      "name": "H.P.L.N. Yashassri",
+      "email": "e23455@eng.pdn.ac.lk",
+      "eNumber": "E/23/455"
+    }
+  ],
+  "supervisors": [],
+  "tags": ["Web", "Software Systems", "CO2060", "MERN", "Transport"]
+}
