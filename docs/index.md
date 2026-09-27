@@ -2,7 +2,7 @@
 
 TransitPRO is a web-based smart transport management and booking system developed as part of the **CO2060 – Software Systems Design Project** at the Department of Computer Engineering, University of Peradeniya.
 
-The system is designed to make public transport booking, vehicle rental, passenger management, and transport administration easier and more organized — for **all passengers**, not a single user group.
+The system is designed to make public transport booking, vehicle rental, passenger management, and transport administration easier and more organized - for **all passengers**, not a single user group.
 
 ---
 
